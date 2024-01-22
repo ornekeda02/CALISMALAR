@@ -1,0 +1,160 @@
+body,p,ul,li,h1,h2{
+    padding: 0;
+    margin: 0;
+}
+.genis{
+    width: 100%;
+    background: rgb(10, 169, 194);
+    padding: 10px;
+}
+.orta{
+    width: 960px;
+    margin: auto;
+    padding: 60px;
+}
+.ust{
+    padding: 20px 0;
+    
+}
+.logo{
+    width: 360px;
+    float: left;
+}
+.logo h1{
+    font-family: 'Kaushan Script', 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.logo h1::first-letter{
+    font-size: 65px;
+}
+.logo h2{
+    font-size: 15px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    padding-left: 10px;
+    letter-spacing: 4px;
+}
+.menu{
+    width: 600px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.menu ul,li{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    padding: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+    display: block;
+    color: #000;
+    font-weight: 900;
+}
+.menu ul li a:hover{
+    padding-top: 5px;
+}
+.slider{
+    margin-top: 25px;
+}
+.icerik{
+    margin: 25px 0px;
+}
+.card{
+    width: 290px;
+    float: left;
+}
+
+.card-orta{
+    margin: 0 45px;
+}
+.alt{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 2px dotted orange;
+    padding-top: 15px;
+}
+.alt-yazi{
+    float: left;
+    width: 450px;
+}
+.alt-resim{
+    float: right;
+    width: 450px;
+}
+.alt-yazi p{
+    font-family: Verdana;
+}
+.yazi-link{
+    color: orange;
+    text-decoration: none;
+    font-weight: 700;
+}
+.linkler{
+    width: 240px;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 40px;
+}
+.linkler ul{
+    list-style: none;
+}
+.linkler ul li{
+    border-bottom: 1px dotted #000;
+    padding: 10px 0;
+}
+.linkler ul li a{
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+}
+.temizle{
+    clear: both;
+}
+.A {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(16, 169, 194);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+    
+    .A a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    }
+    
+    .A a:hover {
+    color: #f1f1f1;
+    }
+    
+    .A .C {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    
+    #main {
+    transition: margin-left .5s;
+    padding: 1px;
+    }
+    
+    @media screen and (max-height: 450px) {
+    .A{padding-top: 15px;}
+    .A a {font-size: 18px;}
+    }
